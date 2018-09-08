@@ -11,7 +11,7 @@ const assert = require('assert');
 class Db{
 
 	constructor(){
-		console.log("hello")
+	
 		this.mongoClient = mongodb.MongoClient;
 		this.ObjectID = mongodb.ObjectID;
 	}
@@ -19,7 +19,7 @@ class Db{
 	onConnect(){
 	
 		const mongoURL = process.env.DB_URL;
-		console.log(mongoURL);
+	
 		return new Promise( (resolve, reject) => {
 			this.mongoClient.connect(mongoURL, (err, db) => {
 				if (err) {

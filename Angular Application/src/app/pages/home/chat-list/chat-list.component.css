@@ -9,6 +9,14 @@
     margin-bottom: 10px;
 	text-transform: capitalize;
 	background: rgba(215, 234, 255, 0.28);
+	cursor: pointer;
+}
+
+.user-list li:hover{
+
+	background: rgba(136, 172, 214, 0.28);
+	cursor: pointer;
+
 }
 
 .user-list .active {

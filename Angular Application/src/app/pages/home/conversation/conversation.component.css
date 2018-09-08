@@ -81,6 +81,9 @@
 	text-align: right;
 }
 
+.message-thread li{
+	color:white !important;
+}
 .message-typer {
 	padding-top: 20px;
 }
