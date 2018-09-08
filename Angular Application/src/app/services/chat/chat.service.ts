@@ -60,6 +60,8 @@ export class ChatService {
 					return response;
 				},
 				(error) => {
+
+					console.log(error);
 					throw error;
 				}
 			)

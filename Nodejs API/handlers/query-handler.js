@@ -11,11 +11,16 @@ class QueryHandler{
 	}
 
 	userNameCheck(data){
+	
 		return new Promise( async (resolve, reject) => {
 			try {
+				
 				const [DB, ObjectID] = await this.Mongodb.onConnect();
+				
 				DB.collection('users').find(data).count( (error, result) => {
 					DB.close();
+					console.log(error);
+					console.log(result);
 					if( error ){
 						reject(error);
 					}

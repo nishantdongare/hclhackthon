@@ -16,7 +16,8 @@ const routes: Routes = [{
 		pathMatch: 'full'
 	}, {
 		path: 'authentication',
-		loadChildren: './authentication/authentication.module#AuthenticationModule'
+	loadChildren: './authentication/authentication.module#AuthenticationModule'
+	//loadChildren: './home/home.module#HomeModule'
 	}, {
 		path: 'home',
 		loadChildren: './home/home.module#HomeModule',

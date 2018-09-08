@@ -17,6 +17,7 @@ class RouteHandler{
 				const count = await queryHandler.userNameCheck( {
 					username : username.toLowerCase()
 				});
+				console.log(count);
 				if (count > 0) {
 					response.status(200).json({
 						error : true,
