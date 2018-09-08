@@ -1,6 +1,6 @@
 /*
 * Real time private chatting app using Angular 2, Nodejs, mongodb and Socket.io
-* @author Shashank Tiwari
+* @author Paris
 */
 
 'use strict';
@@ -19,8 +19,7 @@ class QueryHandler{
 				
 				DB.collection('users').find(data).count( (error, result) => {
 					DB.close();
-					console.log(error);
-					console.log(result);
+					
 					if( error ){
 						reject(error);
 					}

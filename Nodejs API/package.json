@@ -10,7 +10,7 @@
     "rest",
     "api"
   ],
-  "author": "Shashank Tiwari",
+  "author": "Paris",
   "license": "MIT",
   "dependencies": {
     "@google-cloud/debug-agent": "^2.5.0",
