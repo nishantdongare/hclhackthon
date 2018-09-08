@@ -1,3 +1,7 @@
 .feedback{
 	margin-top: 10px;
 }
+
+.form-group label{
+	color: white;
+}
