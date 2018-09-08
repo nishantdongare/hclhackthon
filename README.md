@@ -1,4 +1,4 @@
-#  Simple Chat Application using node , socket.io , angular and mongodb
+#  Simple Chat Application using node , socket.io , angular 6 and mongodb
 
 
 Team Name --> Paris , Date : 8 Sep 2018
